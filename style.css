@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #000;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+  }
+  
+
+h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #000;
+    font-size: 1.5rem;
+  }
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+p {
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+
+.intro-text p,
+.about-section, 
+.services-section,
+.section-five
+   {
+    padding: 1.5em ;
+    overflow-x: hidden;
+    background-color: rgb(36, 36, 36);
+    margin-top: 1em;
+    color: #fff;
+  }
+  
+.section-four,  footer  {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    overflow-x: hidden;
+    margin-top: 2.5em;
+  }
+  
+.title-class, 
+  h4, 
+.service-paragraph {
+    text-align: center;
+  }
+  
+.title-class {
+    margin-bottom: 0.5em;
+  }
+
+
+/* Section One  */ /* Section One  */ /* Section One  *//* Section One  *//* Section One  *//* Section One  */
+.section-one nav {
+    background-color: rgb(36, 36, 36);
+    padding: 0.5em 0;
+}
+
+.heading-one {
+    text-align: center;
+    font-size: 2rem;
+    color: #057c82; 
+}
+
+.intro-header {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.section-one a {
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #fff;
+    transition: background-color 2s ease, color 1s ease;
+}
+
+.section-one a:hover {
+    color: #030111;
+    background-color: rgb(219, 217, 217);
+}
+
+li {
+    list-style: none;
+    
+}
+
+.header-text {
+    text-align: center;
+    
+}
+
+.first-img {
+    margin-top: 1.5em;
+    border-radius: 500px;
+    width: 150px;
+}
+
+.navigation {
+    background-color: pink;
+}
+
+.intro-text p {
+    text-align: left;
+}
+
+/* Section Two *//* Section Two *//* Section Two *//* Section Two *//* Section Two *//* Section Two *//* Section Two */
+.section-two {
+    overflow-x: hidden;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.second-img {
+    max-width: 100%;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px pink;
+}
+
+.about-section {
+    display: flex;
+}
+
+.about-section p  {
+    margin-left: 15px;
+}
+
+
+/* Section-three *//* Section-three *//* Section-three *//* Section-three *//* Section-three *//* Section-three */
+
+.wedding-paragraph {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.2rem;
+}
+
+.wedding-arrow {
+    text-align: center;
+    font-size: 4em;
+    color: #207ea1;
+}
+
+.scroll-indicator {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.7;
+    pointer-events: none;
+  }
+  
+.service-flip::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+.service-flip::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+.service-flip::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+  }
+
+.service-flip {
+    width: 220px;
+    height: 220px;
+    background:#fff;
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto;
+    scroll-snap-type: x mandatory;
+}
+
+.service-flip img {
+    min-width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: center;
+    object-fit: contain;
+}
+
+.wedding {
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    padding: 1.2em 0;
+    box-shadow: 5px 0 5px 0#c4c4c4;
+}
+
+.wedding p {
+    margin-bottom: 1em;
+}
+
+.wedding h4 {
+    font-size: 1.4rem;
+}
+
+
+
+/* Section- Four *//* Section- Four *//* Section- Four *//* Section- Four *//* Section- Four *//* Section- Four */
+.section-four h4 {
+    font-size: 1.2em;
+}
+
+.email-link {
+    text-decoration: none;
+}
+
+.email-button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1.5em;
+    background-color: white;
+    color: #000;
+    font-size: 1.25rem;
+    transition: background-color 2s ease, color 1s ease;
+    border: none;
+}
+
+
+
+.email-button:hover {
+    background-color: rgb(226, 110, 110);
+    color: black;
+}
+
+.email-button {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    overflow-x: hidden;
+    text-decoration: none;
+    margin-top: 1.5em;  
+}
+
+
+/* Section-Five *//* Section-Five *//* Section-Five *//* Section-Five *//* Section-Five *//* Section-Five */
+
+.section-five {
+    margin-bottom: -1.2em;
+    background-color: #000;
+}
+
+/* Social Media *//* Social Media *//* Social Media *//* Social Media *//* Social Media *//* Social Media */
+
+.socialmedia {
+    margin-top: 0.5em;
+    font-size: 35px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.fab.fa-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+
+.fab.fa-whatsapp {
+    color: lightgreen;
+   
+}
+
+.socialmedia {
+    margin-bottom: 0.3em;
+    
+}
+
+/* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer *//* Footer */
+
+footer {
+    margin-top: 1.5em;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+
+/* Media Queries *//* Media Queries *//* Media Queries *//* Media Queries *//* Media Queries *//* Media Queries */
+
+@media (min-width: 540px) {
+    
+    /* SECTION ONE */ /* SECTION ONE */ /* SECTION ONE */
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .first-img {
+        width: 250px;
+    }
+    
+    .section-one ul {
+        margin: 0 1.5em 0;
+    }
+
+    .section-one a {
+        margin-left: 0.7em;
+    }
+
+
+
+/* SECTION-TWO *//* SECTION-TWO *//* SECTION-TWO */
+.heading-one {
+    margin-left: 1em;
+}
+.about-section {
+    justify-content: space-between;
+}
+
+.about-section img  {
+    width: 40%;
+    height: 30%;
+}
+
+.about-section p {
+    width: 60%;
+    height: 20%;
+    margin-top: 10em;
+}
+
+/* SECTION-THREE *//* SECTION-THREE *//* SECTION-THREE */
+.intro-text p,
+.about-section, 
+.services-section
+{
+    padding: 1.5em 3.5em ;
+    overflow-x: hidden;
+    background-color: rgb(36, 36, 36);
+    color: #fff;
+    margin-top: 1em;
+  }
+  
+.section-four,  footer  {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    overflow-x: hidden;
+    margin-top: 2.5em;
+}
+
+.title-class, 
+  h4, 
+.service-paragraph {
+    text-align: center;
+}
+  
+.title-class {
+    margin-bottom: 0.5em;
+  }
+
+
+.services-section {
+    display: flex;
+}
+
+.wedding {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    padding: 1.2em 0;
+    box-shadow: none;
+}
+
+.wedding h4 {
+    font-size: 1.5rem;
+}
+
+}
+/* SECTION-FOUR *//* SECTION-FOUR *//* SECTION-FOUR */
+/* SECTION-FIVE *//* SECTION-FIVE *//* SECTION-FIVE */
+
+
+
+
+
+@media (max-width: 280px) {
+    .section-one,
+    .section-two,
+    .section-three,
+    .section-four,
+    .section-five,
+    .services-section,
+    footer {
+      padding-left: 0.3em;
+      padding-right: 0.3em;
+    }
+  }
+  
