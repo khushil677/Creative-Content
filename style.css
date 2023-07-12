@@ -4,6 +4,8 @@
     scroll-behavior: smooth;
 }
 
+
+
 body {
     letter-spacing: 1px;
     box-sizing: border-box;
@@ -418,3 +420,31 @@ footer {
     }
   }
   
+
+
+
+  /* PHOTOS CSS */ /* PHOTOS CSS */ /* PHOTOS CSS */ /* PHOTOS CSS */ /* PHOTOS CSS */
+
+  /* PART 1 */
+
+  .pictures-head {
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  .wedding-pictures  {
+    display: flex;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+
+  .wedding-pictures img {
+    width: 300px;
+    margin: 0 6px;
+    scroll-snap-align: center;
+  }
